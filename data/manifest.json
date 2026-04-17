@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "domain": "teaching.cornell.edu",
+      "start_url": "https://teaching.cornell.edu",
+      "output_file": "data/teaching_cornell_edu.jsonl"
+    },
+    {
+      "domain": "learn.canvas.cornell.edu",
+      "start_url": "https://learn.canvas.cornell.edu",
+      "output_file": "data/learn_canvas_cornell_edu.jsonl"
+    }
+  ],
+  "total_pages": 598,
+  "format": "jsonl",
+  "schema": {
+    "url": "Source URL",
+    "title": "Page title",
+    "meta_description": "Meta description",
+    "headings": "List of {level, text} heading objects",
+    "full_text": "Full cleaned page text",
+    "chunks": "List of ~800-char overlapping text chunks for embedding"
+  }
+}
